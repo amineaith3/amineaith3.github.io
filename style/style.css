@@ -6,7 +6,6 @@
     font-size: 16px;
 }
 
-/* ------------- fonts ---------------- */
 @font-face {
     font-family: 'Charm';
     font-style: normal;
@@ -34,7 +33,6 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* ----------- css styles ------------ */
 * {
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
@@ -125,17 +123,13 @@ body {
     direction: rtl;
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
 #topDisplay-container::-webkit-scrollbar {
     display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
 #topDisplay-container {
     -ms-overflow-style: none;
-    /* IE and Edge */
     scrollbar-width: none;
-    /* Firefox */
 }
 
 #topDisplay {
@@ -244,7 +238,6 @@ body {
     border-radius: 5px;
     user-select: none;
     padding: 2vh 0 1.8vh;
-    /* transition: background 80ms, transform 20ms; */
 }
 
 .button.click-animation {
