@@ -1,7 +1,7 @@
 :root {
-    --body-background: rgb(22, 22, 22);
-    --button-color: #2a2a2a;
-    --button-hover: #3d3d3d;
+    --body-background: rgb(129, 129, 129);
+    --button-color: #333333;
+    --button-hover: #bdbdbd;
     --max-width: 35rem;
     font-size: 16px;
 }
@@ -70,12 +70,12 @@ body {
 .topBar svg {
     width: 2.5vh;
     height: 2.5vh;
-    fill: rgb(140, 140, 140);
+    fill: rgb(0, 0, 0);
     transition: fill 500ms;
 }
 
 .topBar svg:hover {
-    fill: rgb(180, 180, 180);
+    fill: rgb(255, 255, 255);
 }
 
 .signature {
@@ -84,7 +84,7 @@ body {
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: rgb(140, 140, 140);
+    color: rgb(0, 0, 0);
     letter-spacing: 2px;
     margin: 0;
 }
@@ -107,7 +107,7 @@ body {
 }
 
 .input-area {
-    color: white;
+    color: rgb(136, 0, 0);
     position: relative;
     background: transparent;
     padding: 0.5rem 0.5rem 1rem;
@@ -152,6 +152,18 @@ body {
     font-size: 6vh;
     border: 0;
     outline: 0;
+}
+
+#exponential-container {
+    position: absolute;
+    right: 10px;
+    margin-top: 5px;
+    color: rgb(73, 73, 73);
+    font-size: 1.1rem;
+}
+
+#exponential-container.active {
+    color: whitesmoke
 }
 
 .button-container {
@@ -225,7 +237,6 @@ body {
     cursor: pointer;
     border-radius: 5px;
     user-select: none;
-    padding: 2vh 0 1.8vh;
 }
 
 .button.click-animation {
