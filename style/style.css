@@ -154,18 +154,6 @@ body {
     outline: 0;
 }
 
-#exponential-container {
-    position: absolute;
-    right: 10px;
-    margin-top: 5px;
-    color: rgb(73, 73, 73);
-    font-size: 1.1rem;
-}
-
-#exponential-container.active {
-    color: whitesmoke
-}
-
 .button-container {
     width: 100%;
 }
