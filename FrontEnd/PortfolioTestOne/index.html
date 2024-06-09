@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquerries.css">
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Abdellah Raissouni</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Abdellah Raissouni</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Amine Ait Hamma Profile">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Amine Ait Hamma</h1>
+            <p class="section__text__p2">Software Engineering Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/CV.pdf')">Donwload Cv</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/sakuun-aah/'">
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/amineaith3/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.jpeg" alt="Profile Picture" class="about-pic  interactive-element">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container interactive-element">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Internship <br> NTT DATA </p>
+                    </div>
+                    <div class="details-container interactive-element">
+                        <img src="./assets/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Ensa tetouan <br> Computer Science diploma </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hello! I'm Abdellah Raissouni, a dedicated Computer Science Engineering student with a passion for software development, machine learning, and cybersecurity. I excel in solving complex problems and continuously seek to expand my skills through hands-on projects and collaboration. Let's create innovative tech solutions together!</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container interactive-element">
+                    <h2 class="experience-sub-title">Web Development</h2>
+                    <div class="article-container">
+                        <article>
+                          <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                          <div>
+                            <h3>HTML</h3>
+                            <p>Intermediate</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                          <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                          <div>
+                            <h3>Php</h3>
+                            <p>Beginner</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                          <div>
+                            <h3>Javascript</h3>
+                            <p>Experienced</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                          <div>
+                            <h3>MySQL</h3>
+                            <p>Intermediate</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                          <div>
+                            <h3>...</h3>
+                            <p>I never stop learning</p>
+                          </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container interactive-element">
+                    <h2 class="experience-sub-title">Other Subjects</h2>
+                    <div class="article-container">
+                        <article>
+                          <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                          <div>
+                            <h3>C</h3>
+                            <p>Advanced</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                          <div>
+                            <h3>CyberSecurity</h3>
+                            <p>Beginner</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                          <div>
+                            <h3>Java</h3>
+                            <p>Beginner</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                          <div>
+                            <h3>Git</h3>
+                            <p>Experienced</p>
+                          </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/Ensate-Hub.jpeg" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Ensate-Hub</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AbdellahRAISSOUNI/Ensate-Hub'">
+                        Github
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Pixel Art Canvas</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AbdellahRAISSOUNI/Pixel-art-canva'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://pixel-art-canvas-ar.netlify.app/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/dfa1.png" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Automatons</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AbdellahRAISSOUNI/Automatons'">
+                        Github
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/bitcoin.png" alt="Project 4" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Bitcoin Price Prediction</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AbdellahRAISSOUNI/bitcoin-price-prediction'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/posts/abdellah-raissouni-1419432a8_introducing-my-bitcoin-price-prediction-tool-activity-7203153939645513728-HdIU?utm_source=share&utm_medium=member_desktop'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/ComingSoon.jpg" alt="Project 5" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Coming Soon !!</h2>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/ComingSoon.jpg" alt="Project 6" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Coming Soon !!</h2>
+    
+            </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact" >
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:examplemail@gmail.com">Send Me an Email</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="Linkedincon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/abdellah-raissouni-1419432a8/"> My LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copywrite &#169; 2024 Abdellah Raissouni. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
